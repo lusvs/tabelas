@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 5 ex</title>
+
+    <style>
+        table{
+            border: solid 1px black;
+            border-collapse: collapse;
+            width: 400px;
+            height: 200px;
+            text-align: center;
+            background-color: antiquewhite;
+        }
+
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .linha{
+            background-color: rgb(241, 188, 119);
+        }
+
+        th, td{
+            border: solid 1px black;
+            padding: 5px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Exercicio Tabela</h1>
+
+    <table>
+        <caption> 
+            <h2>Tabela do Jogadores</h2>
+        </caption>
+
+        <tr class="linha">
+            <td><b>Grupos</b></td>
+            <td><b>Nomes</b></td>
+            <td colspan="3"><b>Filmes</b></td>
+        </tr>
+
+        <tr>
+            <td rowspan="3"><b>Homens</b></td>
+            <td>Lucas</td>
+            <td>Red Dead</td>
+            <td>The Last of Us</td>
+            <td>Detroid</td>
+        </tr>
+
+        <tr>
+            <td>Diego</td>
+            <td>Red Dead</td>
+            <td>The Last of Us</td>
+            <td>Miles Moralies</td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>Red Dead</td>
+            <td>The Last of Us</td>
+            <td>Black flag</td>
+        </tr>
+
+        </tr>
+            <td rowspan="3"><b>Mulheres</b></td>
+            <td>Manu</td>
+            <td>Red Dead</td>
+            <td>The Last of Us</td>
+            <td>Black flag</td>
+        </tr>
+
+        <tr>
+            <td>Giulia</td>
+            <td>Red Dead</td>
+            <td>The Last of Us</td>
+            <td>Black flag</td>
+        </tr>
+
+        <tr>
+            <td>Lara</td>
+            <td>Red Dead</td>
+            <td>The Last of Us</td>
+            <td>Black flag</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
